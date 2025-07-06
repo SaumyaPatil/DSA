@@ -1,15 +1,22 @@
 public class Main{
     public static void main(String[] args) {
+        // Q: Store a roll number
+        int a = 19;
+        System.out.println(a);
+
         int[] rnos = new int[5];
+        System.out.println(rnos);
 
         //or directly
         int[] rnos2 = {1, 2, 3, 4, 5};
+        System.out.println(rnos2);
 
         //declaration of array. ros is getting defined in the stack
         int[] ros;  
 
         //initialisation: actually here object is being created in the memory (heap)
         ros = new int[5];
+        System.out.println(ros);
     }
 }
 
