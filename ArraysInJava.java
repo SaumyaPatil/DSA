@@ -59,6 +59,11 @@ public class ArraysInJava{
         String str = null;
         
         // int num = null;     //Wont work here as we have assigned it to primitive
-        // null is neither an object nor a type, its a special value that can be assigned to any reference type and you can type cast null to any type but you cant do it to primitives.
+        // null is neither an object nor a type, its a special value that can be assigned to any reference type and you can type cast 'null' to any type but you can't do it to primitives.
+    
+        // Why is everything null in case of arrays of String type -
+        // Internal working of array of objects - String[] arr = new String[5];
+        // In java, primitives are stored in stack memory, int, char, bool, etc. Non primitives, string type, array type, your own type
+        // hashmap, etc. all these objects or classes that we'll be making are stored in the heap memory.
     }
 }
